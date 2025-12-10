@@ -1,0 +1,10 @@
+# render.yaml (crie na raiz do projeto)
+services:
+  - type: web
+    name: ninja-supreme-2-student-edition
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python ninja-supreme_2_student_edition.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
