@@ -41,6 +41,7 @@ app.add_middleware(
 
 )
 
+N_Z_GRID_POINTS = 1000
 PAPER_MODE_ACTIVE = True
 
 class NinjaDataVectorized:
